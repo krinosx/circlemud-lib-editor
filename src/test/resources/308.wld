@@ -1,0 +1,1572 @@
+#30800
+No Interior do Carrossel~
+     A música que toca parece saída de uma caixa de jóias antiga.
+O Carrossel gira lentamente enquanto os cavalos sobem e descem presos
+a um mastro prateado. A música e o movimento dos cavalos combinados ao
+movimento circular da estrutura do brinquedo parecem provocar nos
+visitantes uma visão mágica de tudo.
+~
+308 jz 0
+D1
+~
+~
+0 0 30988
+D2
+~
+~
+0 0 30806
+D3
+~
+~
+0 0 30801
+S
+#30801
+No Interior do Carrossel~
+   O Carrossel agora adquiriu vida própria. Seus cavalos soltaram-se
+dos mastros e desfilam pelo brinquedo aos trotes. O imponente Pegasus,
+com suas asas imaculadas, está aqui, assim como um colorido cavalo marinho.
+Mas estes animais são tão exuberantes quanto temperamentais.
+Muito cuidado com eles!
+~
+308 jz 0
+D1
+~
+~
+0 0 30800
+D3
+~
+~
+0 0 30802
+S
+#30802
+No Interior do Carrossel~
+   O Carrossel continua girando. Um casal de cavalos reais marchadores
+desfila por aqui, juntamente com alguns pequenos pôneis brancos.
+~
+308 jz 0
+D1
+~
+~
+0 0 30801
+D2
+~
+~
+0 0 30803
+S
+#30803
+No Interior do Carrossel~
+   Cavalos negros como a noite circulam por aqui. Seus olhos vermelhos
+como sangue provocam calafrios nos visitantes. Essas criaturas não são
+inofensivas. Defenda-se!
+~
+308 jz 0
+D0
+~
+~
+0 0 30802
+D1
+~
+~
+0 0 30804
+S
+#30804
+No Interior do Carrossel~
+   Alguns unicórnios cintilantes relincham e empinam à sua frente. Estas
+criaturas são esplendidamente belas, mas podem estar tentando lhe alertar
+sobre algum perigo no caminho.
+~
+308 jz 0
+D1
+~
+~
+0 0 30805
+D3
+~
+~
+0 0 30803
+S
+#30805
+No Interior do Carrossel~
+   Criaturas nefastas, metade homens, metade cavalos, atacam os visitantes
+neste ponto. São poderosos centauros. Eles carregam lanças e aparentam
+estar muito incomodados com o movimento circular do brinquedo.
+~
+308 jz 0
+D0
+~
+~
+0 0 30806
+D3
+~
+~
+0 0 30804
+S
+#30806
+No Interior do Carrossel~
+   Finalmente o Carrossel pára de girar e todos descem. As criaturas
+à sua volta reaparecem presas aos mastros como num passe de mágica.
+É como se nunca tivessem saído deste estado inerte. Toda essa aventura
+não teria sido um devaneio ou algum tipo de epifania sua? Você jamais
+saberá a resposta.
+~
+308 jz 0
+D0
+~
+~
+0 0 30800
+D2
+~
+~
+0 0 30805
+S
+#30807
+Na Estrada de Tijolos Azuis~
+   Uma conexão entre os brinquedos.
+~
+308 jz 1
+D1
+~
+~
+0 0 30990
+D3
+~
+~
+0 0 30989
+S
+#30808
+Na Estrada de Tijolos Azuis~
+   Uma conexão entre os brinquedos.
+~
+308 cjz 1
+D0
+~
+~
+0 0 30990
+D2
+~
+~
+0 0 30991
+S
+#30809
+Na Estrada de Tijolos Azuis~
+   Uma conexão entre os brinquedos.
+~
+308 jz 1
+D0
+~
+~
+0 0 30810
+D1
+~
+~
+0 0 30993
+S
+#30810
+Na Estrada de Tijolos Azuis~
+   Uma conexão entre os brinquedos.
+~
+308 jz 1
+D2
+~
+~
+0 0 30809
+D3
+~
+~
+0 0 30994
+S
+#30811
+O Teleférico~
+   Você está na estação de embarque e desembarque do Teleférico.
+~
+308 jz 0
+D3
+~
+~
+0 0 -1
+S
+#30812
+No Stand de Tiro ao Alvo~
+   Aqui é necessária muita cautela e precisão para acertar os alvos
+que circulam à sua frente, na área de alvos. Eles são muitos e de tipos
+variados. Quanto mais alvos você eliminar, mais chances você terá de
+alcançar os melhores prêmios.
+~
+308 chjz 0
+D1
+~
+~
+0 0 30813
+D3
+~
+~
+0 0 30986
+S
+#30813
+O Espaço dos Alvos~
+   Aqui estão circulando os alvos.
+~
+308 chjwz 0
+D1
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 30812
+S
+#30814
+Na Arena dos Carrinhos Bate-bate~
+   Você está na arena. A regra é clara: "Quem não bate, leva".
+~
+308 cjz 0
+D0
+~
+~
+0 0 30819
+D1
+~
+~
+0 0 30815
+D3
+~
+~
+0 0 30990
+S
+#30815
+Na Arena dos Carrinhos Bate-bate~
+   Você está na arena. A regra é clara: "Quem não bate, leva".
+~
+308 jz 0
+D0
+~
+~
+0 0 30818
+D1
+~
+~
+0 0 30816
+D3
+~
+~
+0 0 30814
+S
+#30816
+Na Arena dos Carrinhos Bate-bate~
+   Você está na arena. A regra é clara: "Quem não bate, leva".
+~
+308 jz 0
+D0
+~
+~
+0 0 30817
+D3
+~
+~
+0 0 30815
+S
+#30817
+Na Arena dos Carrinhos Bate-bate~
+   Você está na arena. A regra é clara: "Quem não bate, leva".
+~
+308 jz 0
+D0
+~
+~
+0 0 30822
+D2
+~
+~
+0 0 30816
+D3
+~
+~
+0 0 30818
+S
+#30818
+Na Arena dos Carrinhos Bate-bate~
+   Você está na arena. A regra é clara: "Quem não bate, leva".
+~
+308 jz 0
+D0
+~
+~
+0 0 30821
+D1
+~
+~
+0 0 30817
+D3
+~
+~
+0 0 30819
+S
+#30819
+Na Arena dos Carrinhos Bate-bate~
+   Você está na arena. A regra é clara: "Quem não bate, leva".
+~
+308 jz 0
+D0
+~
+~
+0 0 30820
+D1
+~
+~
+0 0 30818
+D2
+~
+~
+0 0 30814
+S
+#30820
+Na Arena dos Carrinhos Bate-bate~
+   Você está na arena. A regra é clara: "Quem não bate, leva".
+~
+308 jz 0
+D1
+~
+~
+0 0 30821
+D2
+~
+~
+0 0 30819
+S
+#30821
+Na Arena dos Carrinhos Bate-bate~
+   Você está na arena. A regra é clara: "Quem não bate, leva".
+~
+308 jz 0
+D1
+~
+~
+0 0 30822
+D2
+~
+~
+0 0 30818
+D3
+~
+~
+0 0 30820
+S
+#30822
+Na Arena dos Carrinhos Bate-bate~
+   Você está na arena. A regra é clara: "Quem não bate, leva".
+~
+308 jz 0
+D1
+~
+~
+0 0 30823
+D2
+~
+~
+0 0 30817
+D3
+~
+~
+0 0 30821
+S
+#30823
+Na Arena dos Carrinhos Bate-bate~
+   Você está na arena. A regra é clara: "Quem não bate, leva".
+~
+308 jz 0
+D2
+~
+~
+0 0 30808
+D3
+~
+~
+0 0 30822
+S
+#30824
+Dentro do Kamikaze~
+   Você está na imensa cabine do brinquedo, junto a mais duas dezenas
+de pessoas. A aventura começa quando o DJ aumenta o volume da música
+que toca na plataforma do Kamikaze e os martelos começam a se mover.
+~
+308 jz 0
+D1
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 30825
+S
+#30825
+Dentro do Kamikaze~
+   De um lado para o outro, cada vez mais rápido e mais alto.
+~
+308 jz 0
+D1
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 -1
+D4
+~
+~
+0 0 30826
+S
+#30826
+Dentro do Kamikaze~
+   Mais rápido e mais alto, mais rápido e mais alto.
+~
+308 jz 0
+D0
+~
+~
+0 0 -1
+D1
+~
+~
+0 0 30827
+D3
+~
+~
+0 0 -1
+S
+#30827
+Dentro do Kamikaze~
+  Mais rápido e mais alto, mais rápido e mais alto. O movimento
+pendular já elevou a cabine à metade da altura do martelo.
+~
+308 jz 0
+D1
+~
+~
+0 0 30828
+D3
+~
+~
+0 0 -1
+S
+#30828
+Dentro do Kamikaze~
+   A cabine finalmente atinge a altura máxima e completa o giro de 360
+graus ao redor do eixo central. Os outros visitantes gritam apavorados
+enquanto agarram as travas de segurança temendo despencarem lá de cima
+durante o giro.
+~
+308 jz 0
+D0
+~
+~
+0 0 -1
+D1
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 -1
+D5
+~
+~
+0 0 30829
+S
+#30829
+Dentro do Kamikaze~
+   O brinquedo reduz a velocidade rapidamente e estaciona na plataforma.
+~
+308 jz 0
+D0
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 -1
+D5
+~
+~
+0 0 30867
+S
+#30830
+O Banheiro Masculino~
+   Você está no interior do banheiro masculino.
+   Tudo aqui foi impecavelmente limpo e preparado para seu conforto
+e bem estar. Aproveite para se recompor das fortes emoções vividas
+até agora.
+~
+308 cdhjz 0
+D0
+~
+~
+0 0 -1
+D1
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 30868
+S
+#30831
+O Banheiro Masculino~
+   Você está no interior do banheiro masculino.
+   Este não é um local limpo e aconchegante. Na verdade, há tanta
+imundíce nas pias e coisas nojentas no chão e nas paredes, que só de respirar
+o ar deste local você provavelmente já se infectou com algum tipo de doença.
+~
+308 cdhjz 0
+D0
+~
+~
+0 0 -1
+D1
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 30868
+S
+#30832
+O Banheiro Feminino~
+   Você está no interior do banheiro feminino.
+   Tudo aqui foi impecavelmente limpo e preparado para seu conforto
+e bem estar. Aproveite para se recompor das fortes emoções vividas
+até agora.
+~
+308 cdhjz 0
+D1
+~
+~
+0 0 30868
+D2
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 -1
+S
+#30833
+O Banheiro Feminino~
+   Você está no interior do banheiro feminino.
+   Este não é um local limpo e aconchegante. Na verdade, há tanta
+imundíce nas pias e coisas nojentas no chão e nas paredes, que só de respirar
+o ar deste local você provavelmente já se infectou com algum tipo de doença.
+~
+308 cdhjz 0
+D0
+~
+~
+0 0 -1
+D1
+~
+~
+0 0 30868
+D2
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 -1
+S
+#30834
+Na Cripta dos Demônios~
+   O fogo do inferno queima aqui. Lute para sair deste submundo com vida.
+~
+308 jz 0
+D1
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 30835
+S
+#30835
+Na Cripta dos Demônios~
+   O fogo do inferno queima aqui. Lute para sair deste submundo com vida.
+~
+308 jz 0
+D1
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 30836
+S
+#30836
+Na Cripta dos Demônios~
+   O fogo do inferno queima aqui. Lute para sair deste submundo com vida.
+~
+308 jz 0
+D2
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 30837
+S
+#30837
+Na Cripta dos Demônios~
+   O fogo do inferno queima aqui. Lute para sair deste submundo com vida.
+~
+308 jz 0
+D0
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 30838
+S
+#30838
+Na Cripta dos Demônios~
+   O fogo do inferno queima aqui. Lute para sair deste submundo com vida.
+~
+308 jz 0
+D0
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 -1
+D4
+~
+~
+0 0 30889
+S
+#30839
+Na Cripta dos Demônios~
+   O fogo do inferno queima aqui. Lute para sair deste submundo com vida.
+~
+308 jz 0
+D0
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 30840
+S
+#30840
+Na Cripta dos Demônios~
+   Aqui estão os demônios zombeteiros. Divirta-se!
+~
+308 jz 0
+D2
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 30841
+S
+#30841
+Na Cripta dos Demônios~
+   Aqui estão os demônios zombeteiros. Divirta-se!
+~
+308 jz 0
+D0
+~
+~
+0 0 -1
+D1
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 30842
+S
+#30842
+Na Cripta dos Demônios~
+   Aqui estão os demônios zombeteiros. Divirta-se!
+~
+308 jz 0
+D1
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 30843
+S
+#30843
+Na Cripta dos Demônios~
+   Aqui estão os demônios zombeteiros. Divirta-se!
+~
+308 jz 0
+D0
+~
+~
+0 0 -1
+D1
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 -1
+D4
+~
+~
+0 0 30889
+S
+#30844
+Dentro da Casa dos Espelhos~
+   O corredor continua a sua frente.
+~
+308 jz 0
+D2
+~
+~
+0 0 30843
+D3
+~
+~
+0 0 30845
+S
+#30845
+Dentro da Casa dos Espelhos~
+   O corredor continua a sua frente.
+~
+308 jz 0
+D0
+~
+~
+0 0 30833
+D1
+~
+~
+0 0 30844
+S
+#30846
+Dentro da Casa dos Espelhos~
+   Coisas velhas, empoeiradas e enferrujadas jazem aqui. Elas foram
+esquecidas. Assim como aqueles que ousaram adentrar o espelho, e nunca
+mais conseguiram sair. Mas não é isso que você procura.
+~
+308 jz 0
+D2
+~
+~
+0 0 30847
+D3
+~
+~
+0 0 -1
+S
+#30847
+Dentro da Casa dos Espelhos~
+   Muitos espelhos refletem uma única luz, provindas de uma arandela
+de prata fixada em um dos espelhos do corredor.
+~
+308 jz 0
+D0
+~
+~
+0 0 -1
+D1
+~
+<none>~
+0 0 30839
+S
+#30848
+Dentro da Casa dos Espelhos~
+   Esse é o fim dessa aventura espelhada no passado do parque.
+~
+308 jz 0
+D1
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 30833
+D3
+~
+porta~
+2 0 30993
+S
+#30849
+Sentando na Cadeira~
+   Você se senta na cadeira. Com o cinto de segurança, devidamente
+afivelado, você começa a girar e subir cada vez mais.
+Você gira tão intensamente que sua cadeira já está na horizontal!
+&RVocê percebe que há algo perigoso por perto!&n
+~
+308 cjzA 1
+D3
+~
+~
+0 0 30850
+S
+#30850
+Sentando na Cadeira~
+   Os dois cabos de aço que seguram sua cadeirinha começam a estralar.
+A essa velocidade, a força com a qual seu corpo seria lançado pelos ares
+inviabilizaria qualquer chance de sobreviver. Talvez a velocidade seja
+tamanha que te faça adentrar em outra dimensão. Ou não chão! Os fios se
+arrebentam e você inicia uma viagem ascendente em direção ao infinito.
+~
+308 jz 1
+D1
+~
+~
+0 0 -1
+S
+#30851
+Chacoalhando no La Bamba~
+   Você se senta no interior do La bamba. À sua volta há várias
+pessoas sentadas nos bancos que contornam a grande pista de dança
+circular que há no meio do brinquedo.
+~
+308 jz 1
+D1
+~
+~
+0 0 30852
+D2
+~
+~
+0 0 30858
+D3
+~
+~
+0 0 -1
+S
+#30852
+Chacoalhando no La Bamba~
+   O brinquedo começa a rodar, subindo e descendo continuamente.
+Alguns mariachis iniciam uma sucessão de furtos. Defenda-se!
+~
+308 jz 1
+D1
+~
+~
+0 0 30853
+D3
+~
+~
+0 0 30851
+S
+#30853
+Chacoalhando no La Bamba~
+   Rodando e chacoalhando!
+~
+308 jz 1
+D2
+~
+~
+0 0 30854
+D3
+~
+~
+0 0 30852
+S
+#30854
+Chacoalhando no La Bamba~
+   Rodando e chacoalhando!
+~
+308 jz 1
+D0
+~
+~
+0 0 30853
+D3
+~
+~
+0 0 30855
+S
+#30855
+Chacoalhando no La Bamba~
+   Rodando e chacoalhando!
+~
+308 jz 1
+D1
+~
+~
+0 0 30854
+D3
+~
+~
+0 0 30856
+S
+#30856
+Chacoalhando no La Bamba~
+   Os furtos da gangue se intensificam.
+~
+308 jz 1
+D1
+~
+~
+0 0 30855
+D3
+~
+~
+0 0 30857
+S
+#30857
+Chacoalhando no La Bamba~
+   O ritmo começa a diminuir, o brinquedo está desacelerando para parar.
+~
+308 jz 1
+D0
+~
+~
+0 0 30858
+D1
+~
+~
+0 0 30856
+S
+#30858
+Fim da Aventura no La Bamba~
+   O brinquedo finalmente pára e você pode descer, se conseguir se manter em pé.
+~
+308 jz 1
+D0
+~
+~
+0 0 30989
+D1
+~
+~
+0 0 30851
+D2
+~
+~
+0 0 30857
+S
+#30859
+Elevador~
+   Você está na fila para o Elevador. Este é com certeza um dos brinquedos
+mais insanos do parque. Prepare-se para enfrentar uma angustiante
+subida de assombrosos 80 metros. Quando chegar ao topo e sentir-se
+pronto, digite "cima" para iniciar sua jornada em queda livre.
+"Dizem que diante da morte a mente pode se libertar e alcançar lugares inimagináveis".
+~
+308 jz 1
+D0
+~
+~
+0 0 30868
+D1
+~
+~
+0 0 30860
+D4
+~
+~
+0 0 30869
+S
+#30860
+Na Estrada de Tijolos Verdes~
+   Uma conexão entre os brinquedos.
+~
+308 jz 1
+D1
+~
+~
+0 0 30861
+D2
+~
+~
+0 0 30999
+D3
+~
+~
+0 0 30859
+S
+#30861
+O Polvo~
+   Você está na fila do divertido Polvo. Cada um dos tentáculos dele
+abriga um compartimento circular com 4 lugares. No meio dos bancos
+há um leme, que pode controlar o movimento circular dos bancos.
+~
+308 jz 1
+D0
+~
+~
+0 0 30875
+D1
+~
+~
+0 0 30862
+D3
+~
+~
+0 0 30860
+S
+#30862
+Na Estrada de Tijolos Verdes~
+   Uma conexão entre os brinquedos.
+~
+308 jz 1
+D0
+~
+~
+0 0 30863
+D3
+~
+~
+0 0 30861
+S
+#30863
+Na Estrada de Tijolos Verdes~
+   Uma conexão entre os brinquedos.
+~
+308 jz 1
+D0
+~
+~
+0 0 30864
+D2
+~
+~
+0 0 30862
+S
+#30864
+A Casa dos Horrores~
+   Você chegou à fila do brinquedo mais assustador do parque: a Casa dos
+Horrores. Caso decida aventurar-se dentro da casa, prepare-se para ser
+perseguido por fantasmas, lobisomens, bruxas e toda classe de demônios
+que sua imaginação possa conceber. Será que você pode suportar isso?
+~
+308 jz 1
+D1
+~
+~
+0 0 30881
+D2
+~
+~
+0 0 30863
+D3
+~
+~
+0 0 30865
+S
+#30865
+Na Estrada de Tijolos Verdes~
+   Uma conexão entre os brinquedos.
+~
+308 jz 1
+D1
+~
+~
+0 0 30864
+D3
+~
+~
+0 0 30866
+S
+#30866
+Bungee Jumping~
+   Você está no início da fila que levará ao Bungee Jumping. Pessoas
+com problemas cardíacos ou de pressão alta estão proibidas de prosseguirem.
+   Aventure-se neste salto mortal e sinta a maior sensação de alívio e
+gratidão de sua vida ao pisar em terra firme novamente.
+~
+308 jz 1
+D1
+~
+~
+0 0 30865
+D3
+~
+~
+0 0 30867
+D4
+~
+~
+0 0 30890
+S
+#30867
+Kamikaze~
+   Você acaba de entrar na fila para o Kamikaze. Este brinquedo consiste
+em dois grandes martelos presos lado a lado pelos cabos, com fileiras de
+cadeiras no topo do brinquedo. Conforme ele é ligado, inicia um movimento
+pendular até completar um giro de 360 graus.
+   Não é raro que os visitantes desmaiem durante essa aventura.
+~
+308 jz 1
+D1
+~
+~
+0 0 30866
+D2
+~
+~
+0 0 30868
+D4
+~
+~
+0 0 30824
+S
+#30868
+Sanitários~
+   Você está na entrada dos sanitários. Estes banheiros foram
+estrategicamente posicionados nesta área para que os visitantes possam
+manter a higiene e o asseio pessoal após desfrutarem dos brinquedos mais
+radicais do parque.
+~
+308 cjz 1
+D0
+~
+~
+0 0 30867
+D1
+~
+~
+0 0 30830
+D2
+~
+~
+0 0 30859
+D3
+~
+~
+0 0 30832
+S
+#30869
+Sentado no Elevador~
+Você está prestes a se sentar no elevador. Há coisas jogadas no chão por aqui.
+O elevador acaba de iniciar sua jornada para cima.
+~
+308 jz 0
+D4
+~
+~
+0 0 30870
+S
+#30870
+Subindo~
+   Subindo.
+~
+308 jz 0
+D4
+~
+~
+0 0 30871
+D5
+~
+~
+0 0 -1
+S
+#30871
+Subindo~
+   Subindo.
+~
+308 jz 0
+D4
+~
+~
+0 0 30872
+D5
+~
+~
+0 0 -1
+S
+#30872
+Subindo~
+   Subindo.
+~
+308 jz 0
+D4
+~
+~
+0 0 30873
+D5
+~
+~
+0 0 -1
+S
+#30873
+Subindo~
+   O elevador está quase no topo da torre de sustentação.
+~
+308 jz 0
+D4
+~
+~
+0 0 30874
+D5
+~
+~
+0 0 -1
+S
+#30874
+No Topo~
+   Você chegou ao topo. Respire fundo, aprecie a paisagem panorâmica do
+parque a sua frente e, quando estiver preparado, digite "baixo".
+Boa sorte!
+~
+308 jz 1
+D1
+~
+~
+0 0 -1
+D5
+~
+~
+0 0 -1
+S
+#30875
+Sentando na Cadeira do Polvo~
+   Você escolheu sua cadeira no tentáculo mais próximo à entrada.
+Os motores foram acionados e o gigantesco polvo verde começou a girar.
+Muito cuidado com os jorros de vômito dos outros visitantes.
+~
+308 jz 1
+D1
+~
+~
+0 0 30876
+S
+#30876
+Dentro do Polvo~
+   No início, você com certeza está achando divertido girar as cadeiras,
+através do leme, no sentido contrário ao movimento dos tentáculos. Mas
+será que as outras pessoas, sentadas com você, concordam com isso?
+~
+308 jz 0
+D1
+~
+~
+0 0 30877
+D3
+~
+~
+0 0 30875
+S
+#30877
+Dentro do Polvo~
+   Girando...girando...girando.
+~
+308 jz 0
+D0
+~
+~
+0 0 30878
+D3
+~
+~
+0 0 30876
+S
+#30878
+Dentro do Polvo~
+   A velocidade continua aumentando e você segue girando...
+girando... girando.
+~
+308 jz 0
+D2
+~
+~
+0 0 30877
+D3
+~
+~
+0 0 30879
+S
+#30879
+Dentro do Polvo~
+   Finalmente os motores começam a reduzir a velocidade. À sua volta,
+muitos visitantes estão descorados e com náuseas.
+~
+308 jz 0
+D1
+~
+~
+0 0 30878
+D3
+~
+~
+0 0 30880
+S
+#30880
+Dentro do Polvo~
+   Finalmente o gigantesco polvo pára e você pode, após reestabelecer
+o equilíbrio, sair da atração.
+~
+308 jz 0
+D1
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 30862
+S
+#30881
+Na Ante-Sala~
+   Você está na ante-sala. Daqui pra frente é necessário estar sempre
+de prontidão para enfrentar os seus piores medos.
+~
+308 adjz 0
+D0
+~
+~
+0 0 -1
+D1
+~
+~
+0 0 -1
+D2
+~
+~
+0 0 30863
+D3
+~
+~
+0 0 30882
+S
+#30882
+Dentro da Casa dos Horrores~
+    O odor pútrido de enxofre envolve toda a sala e proporciona uma
+atmosfera agradável aos seres que aqui habitam. Tenha muito cuidado!
+~
+308 adjz 0
+D1
+~
+~
+0 0 30881
+D3
+~
+~
+0 0 30883
+S
+#30883
+Dentro da Casa dos Horrores~
+   Sob seus pés há uma estranha vibração. Se prestar bastante atenção
+talvez consiga descobrir o que existe lá embaixo, e, também, como descer.
+Mas será que você iria realmente querer isso?
+~
+308 adjz 0
+D1
+~
+~
+0 0 30882
+D3
+~
+~
+0 0 30884
+S
+#30884
+Dentro da Casa dos Horrores~
+   Vários são os olhos sobre você por aqui, e com certeza nenhum
+deles é humano. As bruxas deste lugar não possuem alma, por isso tome
+conta da sua.
+~
+308 adjz 0
+D1
+~
+~
+0 0 30883
+D3
+~
+~
+0 0 30885
+S
+#30885
+Dentro da Casa dos Horrores~
+   Para cada segundo que você passa aqui, um segundo de sua vida futura
+se perderá. Essa é a lei dos succubus e incubus que residem por aqui.
+~
+308 adjz 0
+D1
+~
+~
+0 0 30884
+D3
+~
+~
+0 0 30886
+S
+#30886
+Dentro da Casa dos Horrores~
+   Embaixo das camas, dentro dos armários sombrios, no fundo das garagens
+escuras. É assim que estas criaturas gostam de se esconder.
+~
+308 adjz 0
+D1
+~
+~
+0 0 30885
+D3
+~
+~
+0 0 30887
+S
+#30887
+Dentro da Casa dos Horrores~
+   Muitos demônios estão por aqui. Eles estão se divertindo estripando
+algum forasteiro que não foi forte o suficente para destruí-los.
+~
+308 adjz 0
+D1
+~
+~
+0 0 30886
+D3
+~
+~
+0 0 30888
+S
+#30888
+Dentro da Casa dos Horrores~
+   Alguns lobos estão uivando por aqui. Mas o tamanho descomunal deles
+pode ser um indicativo de que, talvez, sejam mais do que lobos comuns.
+~
+308 adjz 0
+D1
+~
+~
+0 0 30887
+D3
+~
+~
+0 0 30889
+S
+#30889
+Dentro da Casa dos Horrores~
+   Se você tiver algo para barganhar com o Guardião do Umbral, talvez
+consiga uma passagem para o submundo. Caso contrário, a diversão acaba aqui.
+~
+308 adjz 0
+D1
+~
+~
+0 0 30888
+D3
+~
+~
+0 0 30865
+S
+#30890
+Na Plataforma de Salto~
+   Você já vestiu o equipamento para salto e está analisando a
+espessura da corda elástica que deverá sustentar seu corpo durante
+um salto em queda livre de aproximadamente mil metros.
+   Um alarme é acionado e seu corpo é arremessado abismo abaixo pelo instrutor.
+~
+308 hjz 0
+S
+#30891
+Durante o Salto~
+   Caindo...AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.
+~
+308 hjzA 0
+D0
+~
+~
+0 0 -1
+S
+#30892
+Durante o Salto~
+   Subindo...OHOHOHOHOHOHOHOHOHOHOHOHOHOHOHOHOHOHOHOHOHOHOHOHOHOHOHOH.
+~
+308 hjzA 0
+S
+#30893
+Durante o Salto~
+   Caindo...AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.
+~
+308 hjzA 0
+S
+#30894
+Durante o Salto~
+   Subindo...OHOHOHOHOHOHOHOHOHOHO.
+~
+308 hjzA 0
+S
+#30895
+Quase Parando~
+   O impulso finalmente se esgota e você fica inerte, seguro pela corda
+esticada a cerca de 400 metros do solo.
+Será que você teria a audácia de pular novamente?
+~
+308 hjz 0
+D3
+~
+~
+0 0 30867
+D4
+~
+~
+0 0 -1
+S
+#30897
+Sala Cadeiras Voadoras~
+You are in an unfinished room.
+você está na sala das cadeiras voadoras
+~
+308 A 0
+S
+#30898
+A Loja de Caixas Mágicas~
+   Vitrinas repletas de caixas mágicas, de todos os tipos, formas e
+tamanhos, cercam você por todos os lados, roubando seu olhar.
+Desejo de muitos, privilégio de poucos, cada punhado de fichas
+coloridas aqui dentro vale ouro. E você, conseguiu reunir fichas o
+suficiente para trocar por uma caixa?
+Para informações sobre as caixas mágicas, digite AJUDA CAIXAS.
+~
+308 cdehjz 0
+D2
+~
+~
+0 0 30905
+S
+#30899
+   Esta não é mais a sala bônus~
+You are in an unfinished room.
+sala bonus das cadeiras@
+~
+308 0 0
+S
+$~

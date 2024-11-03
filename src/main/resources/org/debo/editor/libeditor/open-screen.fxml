@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.debo.editor.libeditor.OpenScreenController">
+   <children>
+      <VBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER">
+               <children>
+                  <Label text="DeBo - Editor de Areas" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font name="Fira Code Bold" size="36.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="TOP_CENTER" spacing="30.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#openWorldEditor" text="Abrir Arquivo WLD" textAlignment="CENTER" wrapText="true" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </Button>
+                  <Button contentDisplay="CENTER" layoutX="250.0" layoutY="40.0" mnemonicParsing="false" onAction="#openMobEditor" text="Abrir Arquivo MOB" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </Button>
+                  <Button contentDisplay="CENTER" layoutX="424.0" layoutY="40.0" mnemonicParsing="false" onAction="#openObjEditor" text="Abrir Arquivo OBJ" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </Button>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+               </padding></HBox>
+            <HBox alignment="TOP_CENTER" layoutX="10.0" layoutY="118.0" spacing="30.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#openQuestEditor" text="Abrir Arquivo QUEST" textAlignment="CENTER" wrapText="true" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </Button>
+                  <Button contentDisplay="CENTER" layoutX="250.0" layoutY="40.0" mnemonicParsing="false" onAction="#openShopEditor" text="Abrir Arquivo SHP" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </Button>
+                  <Button contentDisplay="CENTER" layoutX="424.0" layoutY="40.0" mnemonicParsing="false" onAction="#openZonaEditor" text="Abrir Arquivo ZON" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+               </padding>
+            </HBox>
+            <HBox VBox.vgrow="NEVER">
+               <children>
+                  <Region prefWidth="50.0" HBox.hgrow="NEVER" />
+                  <TextField fx:id="libFolderTxt" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextField>
+                  <Region layoutX="10.0" layoutY="10.0" prefWidth="20.0" />
+                  <Button mnemonicParsing="false" onAction="#chooseLibFolder" text="Selecionar LIB">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Region layoutX="10.0" layoutY="10.0" prefWidth="50.0" />
+               </children>
+               <padding>
+                  <Insets bottom="5.0" />
+               </padding>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

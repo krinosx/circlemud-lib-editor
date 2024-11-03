@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.debo.editor.libeditor.WorldEditorController">
+    <SplitPane dividerPositions="0.2118003025718608" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+            <AnchorPane>
+                <children>
+                    <VBox spacing="10.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                        <Label text="Escolha a Zona para Editar">Escolha a Area para Editar</Label>
+                         <ListView fx:id="zoneListView" onMouseClicked="#onWorldFileClicked" prefHeight="250.0" VBox.vgrow="NEVER" />
+                        <Label layoutX="10.0" layoutY="10.0" text="Escolha a sala" />
+                         <ListView fx:id="roomListView" onMouseClicked="#onRoomClicked" VBox.vgrow="ALWAYS" />
+                        <HBox spacing="15.0">
+                            <Button mnemonicParsing="false" text="Adicionar" />
+                            <Button mnemonicParsing="false" text="Remover" />
+                        </HBox>
+                    </VBox>
+                </children>
+            </AnchorPane>
+            <AnchorPane>
+                <children>
+                    <VBox spacing="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                        <padding>
+                            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                        </padding>
+                        <HBox alignment="CENTER_LEFT">
+                            <Label>Editor de Areas do Debo</Label>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT">
+                            <children>
+                                <TextField fx:id="editorRoomTitle" HBox.hgrow="ALWAYS">
+                                    <font>
+                                        <Font name="Fira Code Regular" size="14.0" />
+                                    </font>
+                                </TextField>
+                            </children>
+                        </HBox>
+                        <TextArea fx:id="editorRoomText" VBox.vgrow="ALWAYS">
+                     <font>
+                        <Font name="Fira Code Regular" size="14.0" />
+                     </font></TextArea>
+                        <HBox VBox.vgrow="NEVER">
+                            <children>
+                                <VBox HBox.hgrow="ALWAYS">
+                                    <children>
+                                        <Label text="Room Flags" />
+                                        <HBox prefHeight="100.0" prefWidth="200.0">
+                                            <children>
+                                                <VBox prefHeight="200.0" prefWidth="100.0">
+                                                    <children>
+                                                        <CheckBox mnemonicParsing="false" text="Dark" />
+                                                        <CheckBox mnemonicParsing="false" text="DT" />
+                                                        <CheckBox mnemonicParsing="false" text="No Mob" />
+                                                        <CheckBox mnemonicParsing="false" text="Indoor" />
+                                                        <CheckBox mnemonicParsing="false" text="Peaceful" />
+                                                    </children>
+                                                </VBox>
+                                                <VBox layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
+                                                    <children>
+                                                        <CheckBox mnemonicParsing="false" text="Soundproof" />
+                                                        <CheckBox mnemonicParsing="false" text="No Track" />
+                                                        <CheckBox mnemonicParsing="false" text="No Magic" />
+                                                        <CheckBox mnemonicParsing="false" text="Tunnel" />
+                                                    </children>
+                                                </VBox>
+                                                <VBox layoutX="110.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
+                                                    <children>
+                                                        <CheckBox mnemonicParsing="false" text="GOD Room" />
+                                                        <CheckBox mnemonicParsing="false" text="Heal" />
+                                                        <CheckBox mnemonicParsing="false" text="Fly" />
+                                                        <CheckBox mnemonicParsing="false" text="Arena" />
+                                                    </children>
+                                                </VBox>
+                                                <VBox layoutX="210.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
+                                                    <children>
+                                                        <CheckBox mnemonicParsing="false" text="No Spirit" />
+                                                        <CheckBox mnemonicParsing="false" text="No Air" />
+                                                        <CheckBox mnemonicParsing="false" text="EchoZone" />
+                                                        <CheckBox mnemonicParsing="false" text="Dismount" />
+                                                    </children>
+                                                </VBox>
+                                                <VBox layoutX="310.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0">
+                                                    <children>
+                                                        <CheckBox mnemonicParsing="false" text="Vortex" />
+                                                        <CheckBox mnemonicParsing="false" text="No Portal" />
+                                                        <CheckBox mnemonicParsing="false" text="IgnoraBreve" />
+                                                        <CheckBox mnemonicParsing="false" text="Private" />
+                                                    </children>
+                                                </VBox>
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                </VBox>
+                                <VBox>
+                                    <children>
+                                        <Label text="Sector Type" />
+                                        <ChoiceBox prefWidth="150.0" />
+                                    </children>
+                                </VBox>
+                            </children>
+                        </HBox>
+                        <VBox VBox.vgrow="NEVER">
+                            <TabPane tabClosingPolicy="UNAVAILABLE" tabMaxHeight="100.0" tabMaxWidth="100.0" tabMinWidth="60.0" VBox.vgrow="NEVER">
+                                <Tab closable="false" text="North">
+                                    <VBox>
+                                        <HBox spacing="10.0" VBox.vgrow="NEVER">
+                                            <opaqueInsets>
+                                                <Insets />
+                                            </opaqueInsets>
+                                            <VBox.margin>
+                                                <Insets bottom="10.0" left="5.0" right="5.0" top="10.0" />
+                                            </VBox.margin>
+                                            <VBox spacing="10.0" HBox.hgrow="ALWAYS">
+                                                <TextArea prefColumnCount="30" prefRowCount="2" promptText="Descrição" />
+                                                <TextField promptText="Keywords" />
+                                            </VBox>
+                                            <VBox spacing="10.0" HBox.hgrow="NEVER">
+                                                <RadioButton mnemonicParsing="false" text="No Door" />
+                                                <RadioButton layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Normal Door" />
+                                                <RadioButton layoutX="10.0" layoutY="27.0" mnemonicParsing="false" text="Pick Proof" />
+                                            </VBox>
+                                            <VBox spacing="10.0" HBox.hgrow="NEVER">
+                                                <TextField promptText="Key" />
+                                                <TextField promptText="Room" />
+                                            </VBox>
+                                        </HBox>
+                                    </VBox>
+                                </Tab>
+                                <Tab text="East">
+                                    <VBox>
+                                        <HBox spacing="10.0" VBox.vgrow="NEVER">
+                                            <opaqueInsets>
+                                                <Insets />
+                                            </opaqueInsets>
+                                            <VBox.margin>
+                                                <Insets bottom="10.0" left="5.0" right="5.0" top="10.0" />
+                                            </VBox.margin>
+                                            <VBox spacing="10.0" HBox.hgrow="ALWAYS">
+                                                <TextArea prefColumnCount="30" prefRowCount="2" promptText="Descrição" />
+                                                <TextField promptText="Keywords" />
+                                            </VBox>
+                                            <VBox spacing="10.0" HBox.hgrow="NEVER">
+                                                <RadioButton mnemonicParsing="false" text="No Door" />
+                                                <RadioButton layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Normal Door" />
+                                                <RadioButton layoutX="10.0" layoutY="27.0" mnemonicParsing="false" text="Pick Proof" />
+                                            </VBox>
+                                            <VBox spacing="10.0" HBox.hgrow="NEVER">
+                                                <TextField promptText="Key" />
+                                                <TextField promptText="Room" />
+                                            </VBox>
+                                        </HBox>
+                                    </VBox>
+                                </Tab>
+                                <Tab text="South">
+                                    <VBox>
+                                        <HBox spacing="10.0" VBox.vgrow="NEVER">
+                                            <opaqueInsets>
+                                                <Insets />
+                                            </opaqueInsets>
+                                            <VBox.margin>
+                                                <Insets bottom="10.0" left="5.0" right="5.0" top="10.0" />
+                                            </VBox.margin>
+                                            <VBox spacing="10.0" HBox.hgrow="ALWAYS">
+                                                <TextArea prefColumnCount="30" prefRowCount="2" promptText="Descrição" />
+                                                <TextField promptText="Keywords" />
+                                            </VBox>
+                                            <VBox spacing="10.0" HBox.hgrow="NEVER">
+                                                <RadioButton mnemonicParsing="false" text="No Door" />
+                                                <RadioButton layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Normal Door" />
+                                                <RadioButton layoutX="10.0" layoutY="27.0" mnemonicParsing="false" text="Pick Proof" />
+                                            </VBox>
+                                            <VBox spacing="10.0" HBox.hgrow="NEVER">
+                                                <TextField promptText="Key" />
+                                                <TextField promptText="Room" />
+                                            </VBox>
+                                        </HBox>
+                                    </VBox>
+                                </Tab>
+                                <Tab text="West">
+                                    <VBox>
+                                        <HBox spacing="10.0" VBox.vgrow="NEVER">
+                                            <opaqueInsets>
+                                                <Insets />
+                                            </opaqueInsets>
+                                            <VBox.margin>
+                                                <Insets bottom="10.0" left="5.0" right="5.0" top="10.0" />
+                                            </VBox.margin>
+                                            <VBox spacing="10.0" HBox.hgrow="ALWAYS">
+                                                <TextArea prefColumnCount="30" prefRowCount="2" promptText="Descrição" />
+                                                <TextField promptText="Keywords" />
+                                            </VBox>
+                                            <VBox spacing="10.0" HBox.hgrow="NEVER">
+                                                <RadioButton mnemonicParsing="false" text="No Door" />
+                                                <RadioButton layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Normal Door" />
+                                                <RadioButton layoutX="10.0" layoutY="27.0" mnemonicParsing="false" text="Pick Proof" />
+                                            </VBox>
+                                            <VBox spacing="10.0" HBox.hgrow="NEVER">
+                                                <TextField promptText="Key" />
+                                                <TextField promptText="Room" />
+                                            </VBox>
+                                        </HBox>
+                                    </VBox>
+                                </Tab>
+                                <Tab text="Up">
+                                    <VBox>
+                                        <HBox spacing="10.0" VBox.vgrow="NEVER">
+                                            <opaqueInsets>
+                                                <Insets />
+                                            </opaqueInsets>
+                                            <VBox.margin>
+                                                <Insets bottom="10.0" left="5.0" right="5.0" top="10.0" />
+                                            </VBox.margin>
+                                            <VBox spacing="10.0" HBox.hgrow="ALWAYS">
+                                                <TextArea prefColumnCount="30" prefRowCount="2" promptText="Descrição" />
+                                                <TextField promptText="Keywords" />
+                                            </VBox>
+                                            <VBox spacing="10.0" HBox.hgrow="NEVER">
+                                                <RadioButton mnemonicParsing="false" text="No Door" />
+                                                <RadioButton layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Normal Door" />
+                                                <RadioButton layoutX="10.0" layoutY="27.0" mnemonicParsing="false" text="Pick Proof" />
+                                            </VBox>
+                                            <VBox spacing="10.0" HBox.hgrow="NEVER">
+                                                <TextField promptText="Key" />
+                                                <TextField promptText="Room" />
+                                            </VBox>
+                                        </HBox>
+                                    </VBox>
+                                </Tab>
+                                <Tab text="Down">
+                                    <VBox>
+                                        <HBox spacing="10.0" VBox.vgrow="NEVER">
+                                            <opaqueInsets>
+                                                <Insets />
+                                            </opaqueInsets>
+                                            <VBox.margin>
+                                                <Insets bottom="10.0" left="5.0" right="5.0" top="10.0" />
+                                            </VBox.margin>
+                                            <VBox spacing="10.0" HBox.hgrow="ALWAYS">
+                                                <TextArea prefColumnCount="30" prefRowCount="2" promptText="Descrição" />
+                                                <TextField promptText="Keywords" />
+                                            </VBox>
+                                            <VBox spacing="10.0" HBox.hgrow="NEVER">
+                                                <RadioButton mnemonicParsing="false" text="No Door" />
+                                                <RadioButton layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Normal Door" />
+                                                <RadioButton layoutX="10.0" layoutY="27.0" mnemonicParsing="false" text="Pick Proof" />
+                                            </VBox>
+                                            <VBox spacing="10.0" HBox.hgrow="NEVER">
+                                                <TextField promptText="Key" />
+                                                <TextField promptText="Room" />
+                                            </VBox>
+                                        </HBox>
+                                    </VBox>
+                                </Tab>
+                            </TabPane>
+                        </VBox>
+                  <HBox VBox.vgrow="NEVER">
+                     <children>
+                        <VBox HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label text="Extra Descriptions">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <HBox spacing="10.0">
+                                 <children>
+                                    <ScrollPane>
+                                       <content>
+                                          <ListView prefHeight="100.0" />
+                                       </content>
+                                    </ScrollPane>
+                                    <VBox spacing="10.0" HBox.hgrow="ALWAYS">
+                                       <children>
+                                          <TextArea prefColumnCount="20" prefRowCount="5" VBox.vgrow="ALWAYS" />
+                                       </children>
+                                    </VBox>
+                                    <VBox layoutX="270.0" layoutY="10.0" spacing="10.0">
+                                       <children>
+                                          <Button mnemonicParsing="false" text="Adicionar" />
+                                          <Button mnemonicParsing="false" text="Remover" />
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="TOP_RIGHT" VBox.vgrow="NEVER">
+                     <children>
+                              <Button text="Salvar" />
+                     </children>
+                  </HBox>
+                    </VBox>
+                </children>
+            </AnchorPane>
+        </items>
+    </SplitPane>
+</AnchorPane>
